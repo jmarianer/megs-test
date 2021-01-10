@@ -1,0 +1,15 @@
+<script>
+  function doClick() {
+      if (foo.value == 'code1')
+        baz.innerText = 'Yay, this is a correct code'
+      else
+        baz.innerText = 'No, you are wrong'
+
+    }
+</script>
+
+<input id="foo"></input>
+<button id="bar" onclick="doClick()">Go</button>
+
+
+<div id="baz"></div>
